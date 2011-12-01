@@ -4,7 +4,7 @@ $(function(){
 		currCount = null,
 		currChildren = null;
 
-	$(myLists).each(function() {
+	myLists.each(function() {
 		
 		// check the existence of the start attribute
 		if ($(this).attr('start')) {
@@ -31,7 +31,7 @@ $(function(){
 		
 		// go through each list item, adding the 'value' attribute plus currCount number
 		// then subract one from currCount so we're ready for the next one
-		$(currChildren).each(function() {
+		currChildren.each(function() {
 
 		   $(this).attr('value', currCount);
 		   currCount = currCount - 1;
