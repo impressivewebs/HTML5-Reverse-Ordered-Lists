@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<title>HTML5 Reversed Ordered Lists (Polyfill)</title>
+  
+<style type="text/css">
+body {
+     color: #555;
+	 font-family: Georgia, "Times New Roman", serif;
+	 line-height: 1.5;
+}
+
+h1 {
+     font-family: Arial, sans-serif;
+     font-size: 1.5em;
+     color: #555;
+}
+</style>
+</head>
+
+<body>
+<h1>PolyFill for HTML5's Reverse Ordered Lists</h1>
+
+<p>See: <a href="http://blog.whatwg.org/reverse-ordered-lists">Reverse Ordered Lists</a> and: <a href="http://dev.w3.org/html5/spec/Overview.html#the-ol-List item">The <code>ol</code> List item</a></p>
+
+<p>(The list below is just a normal reversed list)</p>
+
+<ol reversed>
+    <li>List item one
+    <li>List item two
+    <li>List item three
+</ol>
+
+<p>(The list below has two nested lists; one reversed, one not)</p>
+ 
+<ol reversed>
+    <li>List item one
+    <li>List item two
+
+        <ol reversed>
+               <li>Nested one
+               <li>Nested two
+               <li>Nested three
+               <li>Nested four
+        </ol>
+
+    <li>List item three
+    <li>List item four
+    <li>List item five
+        
+        <ol>
+               <li>Nested one
+               <li>Nested two
+               <li>Nested three
+               <li>Nested four
+        </ol>
+
+    <li>List item six
+    <li>List item seven
+</ol>
+
+<p>(No "reversed" on the list below)</p>
+
+<ol>
+    <li>List item one
+    <li>List item two
+    <li>List item three
+    <li>List item four
+</ol>
+
+<p>(The list below has a "start" attribute)</p>
+        
+<ol reversed start=435>
+    <li>List item one
+    <li>List item two
+    <li>List item three
+    <li>List item four
+    <li>List item five
+    <li>List item six
+</ol>
+
+<p>(The list below uses XHTML syntax for the "reversed" attribute)</p>
+
+<ol reversed="reversed">
+    <li>List item one
+    <li>List item two
+    <li>List item three
+    <li>List item four
+    <li>List item five
+    <li>List item six
+</ol>
+
+<script src="http://code.jquery.com/jquery-1.7.1.js"></script>
+<script src="js/script.js"></script>  
+</body>
+</html>
