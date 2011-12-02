@@ -15,9 +15,6 @@ $(function(){
 			// If it wasn't a number, it will return 'NaN'; if so, use the number of list items instead
 			if (isNaN(currCount)) {
 				currCount = $(this).children().size();
-			} else {
-				// It's a number, so round it, just in case some sicko tries to use a decimal value
-				currCount = Math.round(currCount);
 			}
 		
 		// do this if the start attribute is not present
