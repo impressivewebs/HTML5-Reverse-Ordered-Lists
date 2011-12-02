@@ -9,7 +9,7 @@ $(function(){
 		// check the existence of the start attribute
 		if ($(this).attr('start')) {
 			
-			// if it exists, convert it to an integer
+			// if it exists, convert it to an integer; also ensures even decimal values work
 			currCount = parseInt($(this).attr('start'), 10);
 			
 			// If it wasn't a number, it will return 'NaN'; if so, use the number of list items instead
