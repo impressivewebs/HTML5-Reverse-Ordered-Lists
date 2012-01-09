@@ -17,13 +17,13 @@ $(function(){
 				
 				// If it wasn't a number, it will return 'NaN'; if so, use the number of list items instead
 				if (isNaN(currCount)) {
-					currCount = $(this).children().length();
+					currCount = $(this).children().length;
 				}
 			
 			// do this if the start attribute is not present
 			// the first number is derived from the number of list items
 			} else {
-				currCount = $(this).children().length();
+				currCount = $(this).children().length;
 			}
 			
 			// grab all the child list items
