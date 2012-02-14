@@ -6,7 +6,7 @@ http://www.impressivewebs.com/reverse-ordered-lists-html5
 
 http://dev.w3.org/html5/spec/Overview.html#the-ol-element
 
-Just include the script in any page along with the jQuery library and it will automagically make the 'reversed' attribute work on ordered lists (the attribute is only meant for ordered lists).
+Just include the script in any page (at the end or after the DOM has loaded) and it will automagically make the 'reversed' attribute work on ordered lists (the attribute is only meant for ordered lists).
 
 It also takes into consideration the optional 'start' attribute. Fortunately, 'start' has full support in every browser, so no need for a polyfill for that if you're not using 'reversed'.
 
