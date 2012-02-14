@@ -11,3 +11,5 @@ Just include the script in any page (at the end or after the DOM has loaded) and
 It also takes into consideration the optional 'start' attribute. Fortunately, 'start' has full support in every browser, so no need for a polyfill for that if you're not using 'reversed'.
 
 The script basically uses the cross-browser 'value' attribute on list items that was deprecated in HTML4 but now valid in HTML5.
+
+Special thanks to Remy Sharp for removing the polyfill's dependency on jQuery. If you want an earlier version that uses jQuery, you can grab the code from <a href="http://jsfiddle.net/ImpressiveWebs/h4JcL/">this jsfiddle</a>.
