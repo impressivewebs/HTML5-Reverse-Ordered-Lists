@@ -33,7 +33,7 @@ if (!('reversed' in document.createElement('ol'))) (function () {
       }
       
       // go through each list item, adding the 'value' attribute plus currCount number
-      // then subract one from currCount so we're ready for the next one
+      // then subtract one from currCount so we're ready for the next one
       for (j = 0; j < childrenLength; j++) {
         currChildren[j].setAttribute('value', currCount);
         currCount -= 1;
