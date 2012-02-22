@@ -12,4 +12,8 @@ It also takes into consideration the optional 'start' attribute. Fortunately, 's
 
 The script basically uses the cross-browser 'value' attribute on list items that was deprecated in HTML4 but now valid in HTML5.
 
-Special thanks to Remy Sharp for removing the polyfill's dependency on jQuery. If you want an earlier version that uses jQuery, you can grab the code from <a href="http://jsfiddle.net/ImpressiveWebs/h4JcL/">this jsfiddle</a>.
+Special thanks to <a href="http://remysharp.com/">Remy Sharp</a> for removing the polyfill's dependency on jQuery.
+
+More thanks to <a href="http://jeffreybarke.net/">Jeffrey Barke</a> who pointed out problems with manual value attributes already existing in the HTML, and the fact that the raw JS version was not handling nested lists properly.
+
+If you want a version that uses jQuery, you can grab the code from <a href="http://jsfiddle.net/ImpressiveWebs/h4JcL/51/">this jsFiddle</a>.
