@@ -1,4 +1,4 @@
-# [HTML5 Reverse Ordered Lists (Polyfill)](http://www.impressivewebs.com/html5-reverse-ordered-lists/)
+# [HTML5 Reverse Ordered Lists (Polyfill)](http://www.impressivewebs.com/reverse-ordered-lists-html5/)
 
 A polyfill that adds support for reverse ordered lists. See:
 
